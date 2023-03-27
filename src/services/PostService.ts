@@ -18,11 +18,11 @@ export default class PostService {
         }[]>('https://jsonplaceholder.typicode.com/posts')
             .then((response) => {
                 return response.data.map((post) => {
-                    return new Post(
+                    return JSON.parse(JSON.stringify(new Post(
                         String(post.id),
                         post.title,
                         post.body,
-                        String(post.userId)
+                        String(post.userId))) 
                     )
                 })
             })
