@@ -1,7 +1,6 @@
 import { useState } from 'react';
 import style from './style.module.css'
 import { RxHamburgerMenu } from 'react-icons/rx'
-import { Link } from 'react-router-dom';
 
 export default function Header() {
 
