@@ -1,0 +1,124 @@
+.burg {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+  
+    font-size: 25px;
+    display: none;
+  }
+  
+  .navContainer {
+    width: 100vw;
+    height: 8rem;
+  
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    z-index: 1;
+  }
+  
+  
+  
+  .navContainer > h3 {
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+  
+  .navContainer > h3 > a {
+    text-decoration: none;
+    color: #000;
+  
+  }
+  
+  .navContainer > .links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    list-style: none;
+  
+    font-weight: 400;
+    opacity: 70%;
+  }
+  
+  .navContainer > button {
+  
+    background: rgb(37,154,249);
+    background: linear-gradient(106deg, rgba(37,154,249,1) 0%, rgba(34,63,124,1) 100%);
+    width: 7rem;
+    height: 2.5rem;
+    border-radius: 20px;
+    border: none;
+    
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+  
+    color: #fff;
+  }
+  
+  @media (max-width: 500px) {
+  
+    .burg {
+      display: block;
+    }
+  
+    .navContainer {
+      display: none;
+    }
+  
+  .navContainerMobile {
+  
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  
+      height: 20rem;
+      width: 10rem;
+      position: absolute;
+  
+      box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+      background: #fff;
+      border-radius: 10px;
+      
+      flex-direction: column;
+      
+      right: 58%;
+      top: 0.8%;
+  
+  }
+  
+    .navContainerMobile > h3 > a {
+    text-decoration: none;
+    color: #000;
+  
+  }
+  
+      
+  
+  .navContainerMobile > .links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+    list-style: none;
+  
+      flex-direction: column;
+    font-weight: 400;
+    opacity: 70%;
+  }
+  .navContainerMobile > button {
+  
+    background: rgb(37,154,249);
+    background: linear-gradient(106deg, rgba(37,154,249,1) 0%, rgba(34,63,124,1) 100%);
+    width: 7rem;
+    height: 2.5rem;
+    border-radius: 20px;
+    border: none;
+    
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+  
+    color: #fff;
+  }
+  
+  }
