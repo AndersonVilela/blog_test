@@ -15,9 +15,9 @@ Este projeto está atualmente em desenvolvimento. Os usuários podem visualizar 
 ## Capturas de tela do projeto
   
 
-<img src="./assets/ft1.png" alt="screenshot front">
+<img src="./src/assets/ft1.png" alt="screenshot front" width="600" height="400">
 
-img src="./assets/ft2.png" alt="screenshot front">
+<img src="./src/assets/ft2.png" alt="screenshot front" width="600" height="400">
 
 ### Tecnologias utilizadas
 
