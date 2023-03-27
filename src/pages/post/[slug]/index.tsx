@@ -34,7 +34,7 @@ export const getStaticPaths: GetStaticPaths = async () => {
 
 export const getStaticProps: GetStaticProps = async (context) => {
 
-    const { slug } = context.params;
+    const { slug }: any | undefined = context.params;
     const post = await new PostService().getOne(String(slug));
 
     return {
