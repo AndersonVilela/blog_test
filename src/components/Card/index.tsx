@@ -1,4 +1,4 @@
-
+1
 import Image from "next/image"
 import styles from "./style.module.css";
 import RetangleImage from "../../assets/Retangle3.jpeg";

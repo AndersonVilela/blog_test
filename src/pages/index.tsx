@@ -23,6 +23,7 @@ export default function Home({ posts }: { posts: Post[] }) {
          {posts.map((post) => (
           <Card title={post.title} description={post.content} links={post.id} key={post.id} />
          ))}
+         {Post} 
       </div>
     </main>
   )
