@@ -38,13 +38,15 @@ export default class PostService {
                 body: string
             }>(`https://jsonplaceholder.typicode.com/posts/${id}`)
 
-            return JSON.parse(JSON.stringify(new Post(
-                String(post.id),
-                post.title,
-                post.body,
-                String(post.userId),
-                comments
-            ))) 
+            return  JSON.parse(JSON.stringify(
+                new Post(
+                    String(post.id),
+                    post.title,
+                    post.body,
+                    String(post.userId),
+                    comments
+                ) 
+            )) 
 
         } catch (error) {
             throw error;

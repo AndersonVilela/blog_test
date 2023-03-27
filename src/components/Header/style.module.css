@@ -13,7 +13,8 @@
   
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding: 2rem;
     z-index: 1;
   }
   
@@ -30,16 +31,6 @@
   
   }
   
-  .navContainer > .links {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 1rem;
-    list-style: none;
-  
-    font-weight: 400;
-    opacity: 70%;
-  }
   
   .navContainer > button {
   

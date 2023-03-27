@@ -8,7 +8,7 @@ import { BiSearch } from "react-icons/bi"
 
 
 export default function Home({ posts }: { posts: Post[] }) {
-  console.log(posts)
+
   return (
     <main className={style.homeContainer}>
       <Header />
@@ -20,10 +20,9 @@ export default function Home({ posts }: { posts: Post[] }) {
         </div>
       </div>
       <div className={style.listCards} >
-         {posts.map((post) => (
-          <Card title={post.title} description={post.content} links={post.id} key={post.id} />
-         ))}
-         {Post} 
+        {posts.map((post) => (
+          <Card post={post} key={post.id} />
+        ))}
       </div>
     </main>
   )

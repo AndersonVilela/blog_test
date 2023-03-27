@@ -15,11 +15,6 @@ export default function Header() {
       <RxHamburgerMenu className={style.burg} onClick={toggleMode} />
       <nav className={toggleMenu ? style.navContainer : style.navContainerMobile}>
         <h3 ><a href="/">Alka Blog</a></h3>
-        <ul className={style.links}>
-          <li>Services</li>
-          <li>Blog</li>
-          <li>About us</li>
-        </ul>
         <button>Contact us</button>
       </nav>
     </>
