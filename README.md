@@ -1,43 +1,41 @@
 ## Project Name & Pitch
 
-#### Example:
-
 Blog test
 
-A blog querying posts and comments through a restfull api.
+###  Demo : https://blog-test-zeta-liart.vercel.app/
 
-## Project Status
-(still under development)
-#### Example:
 
-This project is currently under development. Users can view posts, can read in the read post area, can use search to find similar titles, and can view comments for each post.
+Um blog que consulta postagens e comentários por meio de uma API restfull.
 
-## Project Screen Shot(s)
+## Status do projeto
+(desenvolvimento concluido)
 
-#### Example:   
+Este projeto está atualmente em desenvolvimento. Os usuários podem visualizar postagens, podem ler na área de postagem lida, podem usar a pesquisa para encontrar títulos semelhantes e podem visualizar comentários para cada postagem.
 
-[ PRETEND SCREEN SHOT IS HERE ]
+## Capturas de tela do projeto
+  
 
-[ PRETEND OTHER SCREEN SHOT IS HERE ]
+<img src="./assets/ft1.png" alt="screenshot front">
+
+img src="./assets/ft2.png" alt="screenshot front">
 
 ### Tecnologias utilizadas
 
 - Next.js
 - React
-- Styled Components
 - Hooks
 - Axios
 
-### Ilustrative
+### Ilustrativo
 
-- header merely illustrative
-- merely illustrative image
+- cabeçalho meramente ilustrativo
+- imagem meramente ilustrativa
 
-## Installation and Setup Instructions
+## Instruções de instalação e configuração
 
-#### Example:  
+#### Exemplo:  
 
-Clone down this repository. You will need `node` and `yarn` installed globally on your machine.  
+Clone este repositório. Você precisará de `node` e `yarn` instalados globalmente em sua máquina. 
 
 Installation:
 
@@ -59,4 +57,5 @@ To Start:
 
 To Visit App:
 
-`localhost:3000/ideas`  
+`localhost:3000/`  
+
